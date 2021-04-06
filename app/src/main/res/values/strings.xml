@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AsyncPatterns</string>
+    <string name="spinnerDescription">Spinner animation to check UI blocking calls</string>
+    <string name="startDownload">Download Image</string>
+    <string name="title_preference">Select async pattern to use</string>
+    <string name="title_activity_settings">AsyncPatterns Settings</string>
+    <string name="networkNotAvailable">Unable to connect to the network. Please check your network connection and try again</string>
+    <string name="Fibonacci">Unable to download image on UI Thread. Calculating on UI thread: Fibonacci Number</string>
+    <string name="DownLoadThread">Download image using Thread</string>
+    <string name="DownloadAsyncTask">Download image using AsyncTask</string>
+    <string name="DownloadIntentService">Download image using Intent Service</string>
+    <string name="DownloadHandler">Download image using Handler</string>
+    <string name="DownloadHandlerThread">Download image using Handler Thread</string>
+    <string name="DownloadExecutor">Download image using Executor</string>
+    <string name="DownloadWorkManager">Download image using WorkManager</string>
+    <string name="DownloadRxJava">Download image using RxJava</string>
+    <string name="DownloadCoroutines">Download image using Coroutines</string>
+</resources>

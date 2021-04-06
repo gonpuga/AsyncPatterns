@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        app:key="async_patterns_list"
+        app:title="@string/title_preference"
+        app:useSimpleSummaryProvider="true"
+        app:entries="@array/pattern_names"
+        app:entryValues="@array/pattern_values"
+        app:dialogTitle="@string/title_preference"
+        android:defaultValue="0"/>
+</PreferenceScreen>
